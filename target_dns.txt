@@ -1,0 +1,136 @@
+
+; <<>> DiG 9.20.22-1-Debian <<>> nmap.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26592
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 5, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 4096
+;; QUESTION SECTION:
+;nmap.org.			IN	A
+
+;; ANSWER SECTION:
+nmap.org.		5	IN	A	50.116.1.184
+
+;; AUTHORITY SECTION:
+nmap.org.		5	IN	NS	ns5.linode.com.
+nmap.org.		5	IN	NS	ns2.linode.com.
+nmap.org.		5	IN	NS	ns1.linode.com.
+nmap.org.		5	IN	NS	ns4.linode.com.
+nmap.org.		5	IN	NS	ns3.linode.com.
+
+;; Query time: 0 msec
+;; SERVER: 192.168.200.2#53(192.168.200.2) (UDP)
+;; WHEN: Thu Jun 04 02:28:01 EDT 2026
+;; MSG SIZE  rcvd: 153
+
+
+; <<>> DiG 9.20.22-1-Debian <<>> scanme.nmap.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25906
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 5, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 4096
+;; QUESTION SECTION:
+;scanme.nmap.org.		IN	A
+
+;; ANSWER SECTION:
+scanme.nmap.org.	5	IN	A	45.33.32.156
+
+;; AUTHORITY SECTION:
+nmap.org.		5	IN	NS	ns1.linode.com.
+nmap.org.		5	IN	NS	ns2.linode.com.
+nmap.org.		5	IN	NS	ns4.linode.com.
+nmap.org.		5	IN	NS	ns3.linode.com.
+nmap.org.		5	IN	NS	ns5.linode.com.
+
+;; Query time: 255 msec
+;; SERVER: 192.168.200.2#53(192.168.200.2) (UDP)
+;; WHEN: Thu Jun 04 02:30:09 EDT 2026
+;; MSG SIZE  rcvd: 160
+
+
+; <<>> DiG 9.20.22-1-Debian <<>> nmap.org MX
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51175
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 5, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 4096
+;; QUESTION SECTION:
+;nmap.org.			IN	MX
+
+;; ANSWER SECTION:
+nmap.org.		5	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+nmap.org.		5	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+nmap.org.		5	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
+nmap.org.		5	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
+nmap.org.		5	IN	MX	1 ASPMX.L.GOOGLE.COM.
+
+;; AUTHORITY SECTION:
+nmap.org.		5	IN	NS	ns4.linode.COM.
+nmap.org.		5	IN	NS	ns2.linode.COM.
+nmap.org.		5	IN	NS	ns5.linode.COM.
+nmap.org.		5	IN	NS	ns1.linode.COM.
+nmap.org.		5	IN	NS	ns3.linode.COM.
+
+;; Query time: 227 msec
+;; SERVER: 192.168.200.2#53(192.168.200.2) (UDP)
+;; WHEN: Thu Jun 04 02:31:00 EDT 2026
+;; MSG SIZE  rcvd: 267
+
+
+; <<>> DiG 9.20.22-1-Debian <<>> nmap.org NS
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49358
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 4096
+;; QUESTION SECTION:
+;nmap.org.			IN	NS
+
+;; ANSWER SECTION:
+nmap.org.		5	IN	NS	ns3.linode.com.
+nmap.org.		5	IN	NS	ns1.linode.com.
+nmap.org.		5	IN	NS	ns5.linode.com.
+nmap.org.		5	IN	NS	ns2.linode.com.
+nmap.org.		5	IN	NS	ns4.linode.com.
+
+;; Query time: 231 msec
+;; SERVER: 192.168.200.2#53(192.168.200.2) (UDP)
+;; WHEN: Thu Jun 04 02:31:38 EDT 2026
+;; MSG SIZE  rcvd: 137
+
+
+; <<>> DiG 9.20.22-1-Debian <<>> nmap.org SOA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18922
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 5, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 4096
+;; QUESTION SECTION:
+;nmap.org.			IN	SOA
+
+;; ANSWER SECTION:
+nmap.org.		5	IN	SOA	ns1.linode.com. hostmaster.nmap.com. 2021000018 14400 14400 1209600 3600
+
+;; AUTHORITY SECTION:
+nmap.org.		5	IN	NS	ns5.linode.com.
+nmap.org.		5	IN	NS	ns4.linode.com.
+nmap.org.		5	IN	NS	ns3.linode.com.
+nmap.org.		5	IN	NS	ns2.linode.com.
+nmap.org.		5	IN	NS	ns1.linode.com.
+
+;; Query time: 159 msec
+;; SERVER: 192.168.200.2#53(192.168.200.2) (UDP)
+;; WHEN: Thu Jun 04 02:31:54 EDT 2026
+;; MSG SIZE  rcvd: 189
+
